@@ -3,7 +3,7 @@ import { defineUserConfig } from 'vuepress'
 import { webpackBundler } from '@vuepress/bundler-webpack'
 
 export default defineUserConfig({
-  base: '/',
+  base: '/wiki/',
   locales: {
     '/': {
       lang: 'zh-CN',
@@ -39,6 +39,12 @@ export default defineUserConfig({
       }
     ],
     sidebar: {
+      '/get-started': [
+        {
+          text: '开始阅读',
+          link: '/get-started'
+        }
+      ],
       '/interview/java/basic/': [
         {
           text: 'Java基础面试题',
