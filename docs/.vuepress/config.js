@@ -19,10 +19,10 @@ export default defineUserConfig({
         text: '首页',
         link: '/'
       },
-      // {
-      //   text: '开始阅读',
-      //   link: '/get-started'
-      // },
+      {
+        text: '开始阅读',
+        link: '/get-started'
+      },
       {
         text: '面试题',
         children: [
@@ -35,6 +35,27 @@ export default defineUserConfig({
           { text: '大数据', link: '/interview/big-data/' },
           { text: '消息队列', link: '/interview/message-queue/' },
           { text: '数据库', link: '/interview/database/' }
+        ]
+      },
+      {
+        text: '技术教程',
+        children: [
+          { text: 'LLM', link: '/tutorial/llm/' },
+          { text: '强化学习', link: '/tutorial/rl/' },
+          { text: '机器学习', link: '/tutorial/ml/' },
+          { text: 'R语言', link: '/tutorial/r/' },
+          { text: 'Python', link: '/tutorial/python/' },
+          { text: 'React', link: '/tutorial/react/' },
+          { text: 'Swift', link: '/tutorial/swift/' },
+          { text: '嵌入式', link: '/tutorial/embedded/' }
+        ]
+      },
+      {
+        text: '解决方案',
+        children: [
+          { text: 'AIOps', link: '/solution/aiops/' },
+          { text: '高可用架构', link: '/solution/high-availability/' },
+          { text: '智能营销', link: '/solution/smart-marketing/' }
         ]
       }
     ],
@@ -97,6 +118,72 @@ export default defineUserConfig({
         {
           text: '数据库面试题',
           link: '/interview/database/'
+        }
+      ],
+      '/tutorial/llm/': [
+        {
+          text: 'LLM学习教程',
+          link: '/tutorial/llm/'
+        }
+      ],
+      '/tutorial/rl/': [
+        {
+          text: '强化学习教程',
+          link: '/tutorial/rl/'
+        }
+      ],
+      '/tutorial/ml/': [
+        {
+          text: '机器学习教程',
+          link: '/tutorial/ml/'
+        }
+      ],
+      '/tutorial/r/': [
+        {
+          text: 'R语言教程',
+          link: '/tutorial/r/'
+        }
+      ],
+      '/tutorial/python/': [
+        {
+          text: 'Python教程',
+          link: '/tutorial/python/'
+        }
+      ],
+      '/tutorial/react/': [
+        {
+          text: 'React教程',
+          link: '/tutorial/react/'
+        }
+      ],
+      '/tutorial/swift/': [
+        {
+          text: 'Swift教程',
+          link: '/tutorial/swift/'
+        }
+      ],
+      '/tutorial/embedded/': [
+        {
+          text: '嵌入式教程',
+          link: '/tutorial/embedded/'
+        }
+      ],
+      '/solution/aiops/': [
+        {
+          text: 'AIOps解决方案',
+          link: '/solution/aiops/'
+        }
+      ],
+      '/solution/high-availability/': [
+        {
+          text: '高可用架构解决方案',
+          link: '/solution/high-availability/'
+        }
+      ],
+      '/solution/smart-marketing/': [
+        {
+          text: '智能营销解决方案',
+          link: '/solution/smart-marketing/'
         }
       ]
     }
