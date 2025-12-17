@@ -1,7 +1,7 @@
 ---
 home: true
 title: 首页
-heroImage: https://vuejs.press/images/hero.png
+#heroImage: https://vuejs.press/images/hero.png
 actions:
   - text: 开始阅读
     link: /get-started.html
@@ -12,12 +12,12 @@ actions:
     type: secondary
 
 features:
-  - title: 简洁优先
-    details: 以 Markdown 为中心的项目结构，帮助您专注于写作。
-  - title: Vue 驱动
-    details: 享受 Vue 的开发体验，在 Markdown 中使用 Vue 组件，并使用 Vue 开发自定义主题。
-  - title: 高性能
-    details: VuePress 为每个页面预渲染静态 HTML，页面加载后作为 SPA 运行。
+#  - title: 简洁优先
+#    details: 以 Markdown 为中心的项目结构，帮助您专注于写作。
+#  - title: Vue 驱动
+#    details: 享受 Vue 的开发体验，在 Markdown 中使用 Vue 组件，并使用 Vue 开发自定义主题。
+#  - title: 高性能
+#    details: VuePress 为每个页面预渲染静态 HTML，页面加载后作为 SPA 运行。
   - title: 所见即所得
     details: 在AI时代，我们依然需要记录思考过程。文字是思想的载体，所见即所得的体验让我们更好地沉淀知识。
   - title: 知识沉淀
@@ -25,7 +25,7 @@ features:
   - title: 持续成长
     details: 写作是最好的学习方式。在记录中反思，在反思中进步，这是AI无法替代的人类智慧。
 
-footer: MIT 许可证 | 版权所有 © 2018-至今 VuePress 社区
+footer: MIT 许可证 | 版权所有 © 2025
 ---
 
 # AI时代，为什么还要写笔记？
