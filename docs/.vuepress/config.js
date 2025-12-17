@@ -7,8 +7,8 @@ export default defineUserConfig({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: '技术面试宝典',
-      description: '涵盖Java、Spring、Vue、Node.js等技术面试题'
+      title: '知识库',
+      description: '涵盖Java、Spring、Vue、Node.js等技术知识'
     }
   },
 
