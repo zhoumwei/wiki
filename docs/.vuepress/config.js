@@ -28,6 +28,9 @@ export default defineUserConfig({
         children: [
           { text: 'Java基础', link: '/interview/java/basic/' },
           { text: 'Java高级', link: '/interview/java/advanced/' },
+          { text: 'Java集合详解', link: '/interview/java/collections/' },
+          { text: 'Java多线程详解', link: '/interview/java/concurrency/' },
+          { text: 'JDK版本变化详解', link: '/interview/java/jdk-changes/' },
           { text: 'Spring Boot', link: '/interview/spring-boot/' },
           { text: 'Spring Cloud', link: '/interview/spring-cloud/' },
           { text: 'Vue', link: '/interview/vue/' },
@@ -76,6 +79,24 @@ export default defineUserConfig({
         {
           text: 'Java高级面试题',
           link: '/interview/java/advanced/'
+        }
+      ],
+      '/interview/java/collections/': [
+        {
+          text: 'Java集合详解',
+          link: '/interview/java/collections/'
+        }
+      ],
+      '/interview/java/concurrency/': [
+        {
+          text: 'Java多线程详解',
+          link: '/interview/java/concurrency/'
+        }
+      ],
+      '/interview/java/jdk-changes/': [
+        {
+          text: 'JDK版本变化详解',
+          link: '/interview/java/jdk-changes/'
         }
       ],
       '/interview/spring-boot/': [
