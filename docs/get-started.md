@@ -1,46 +1,104 @@
-# Get Started
+# 开始使用知识库
 
-This is a normal page, which contains VuePress basics.
+欢迎使用本技术知识库！本指南将帮助您快速了解如何浏览和使用知识库的内容。
 
-## Pages
+## 知识库概述
 
-You can add markdown files in your vuepress directory, every markdown file will be converted to a page in your site.
+这是一个全面的技术知识库，涵盖了多个主流技术领域，包括Java、Spring、Vue、Node.js、大数据等。知识库按照三大板块进行组织，方便您快速定位和学习所需内容。
 
-See [routing][] for more details.
+## 内容分类
 
-## Content
+### 1. 面试题板块
+专为技术面试准备的内容，包含各大技术领域的核心知识点和常见面试题：
 
-Every markdown file [will be rendered to HTML, then converted to a Vue SFC][content].
+- **Java**：基础语法、面向对象、集合框架、多线程、JVM、JDK版本变化
+- **Spring**：Spring Boot、Spring Cloud、Spring框架核心
+- **前端技术**：Vue、React、前端工程化
+- **后端技术**：Node.js、数据库、消息队列
+- **大数据**：Hadoop、Spark、Flink等
 
-VuePress support basic markdown syntax and [some extensions][synatex-extensions], you can also [use Vue features][vue-feature] in it.
+### 2. 技术教程板块
+提供系统的技术学习教程，适合希望深入学习特定技术的开发者：
 
-## Configuration
+- **AI技术**：LLM大语言模型、机器学习、强化学习
+- **数据分析**：Python、R语言、数据分析工具
+- **其他技术**：React、Swift、嵌入式系统开发
 
-VuePress use a `.vuepress/config.js`(or .ts) file as [site configuration][config], you can use it to config your site.
+### 3. 解决方案板块
+分享实际项目中的解决方案和架构设计：
 
-For [client side configuration][client-config], you can create `.vuepress/client.js`(or .ts).
+- **AIOps**：智能运维解决方案
+- **高可用架构**：系统高可用设计与实践
+- **智能营销**：营销自动化与智能化方案
 
-Meanwhile, you can also add configuration per page with [frontmatter][].
+## 导航方式
 
-## Layouts and customization
+### 顶部导航栏
+通过顶部导航栏可以快速访问知识库的主要板块：
 
-Here are common configuration controlling layout of `@vuepress/theme-default`:
+1. **首页**：返回知识库首页
+2. **开始阅读**：进入本使用指南
+3. **面试题**：访问各技术领域的面试题
+4. **技术教程**：浏览系统的技术学习教程
+5. **解决方案**：查看实际项目解决方案
 
-- [navbar][]
-- [sidebar][]
+### 侧边栏导航
+进入特定技术领域后，侧边栏会显示该领域的详细目录结构，方便您：
 
-Check [default theme docs][default-theme] for full reference.
+- 浏览当前领域的所有内容
+- 快速跳转到相关知识点
+- 查看内容的层次结构
 
-You can [add extra style][style] with `.vuepress/styles/index.scss` file.
+### 搜索功能
+页面右上角提供搜索功能，您可以：
 
-[routing]: https://vuejs.press/guide/page.html#routing
-[content]: https://vuejs.press/guide/page.html#content
-[synatex-extensions]: https://vuejs.press/guide/markdown.html#syntax-extensions
-[vue-feature]: https://vuejs.press/guide/markdown.html#using-vue-in-markdown
-[config]: https://vuejs.press/guide/configuration.html#client-config-file
-[client-config]: https://vuejs.press/guide/configuration.html#client-config-file
-[frontmatter]: https://vuejs.press/guide/page.html#frontmatter
-[navbar]: https://vuejs.press/reference/default-theme/config.html#navbar
-[sidebar]: https://vuejs.press/reference/default-theme/config.html#sidebar
-[default-theme]: https://vuejs.press/reference/default-theme/
-[style]: https://vuejs.press/reference/default-theme/styles.html#style-file
+- 输入关键词搜索知识库内容
+- 快速定位相关知识点
+- 支持模糊搜索和关键词高亮
+
+## 如何有效使用知识库
+
+### 1. 系统学习
+如果您希望系统学习某个技术领域，可以：
+
+1. 通过顶部导航栏选择对应的技术领域
+2. 按照侧边栏的目录结构，从基础到高级逐步学习
+3. 结合实际项目案例加深理解
+
+### 2. 面试准备
+如果您正在准备技术面试，可以：
+
+1. 进入「面试题」板块
+2. 选择目标技术领域
+3. 针对性地复习核心知识点和面试题
+4. 结合实际项目经验，准备面试答案
+
+### 3. 解决实际问题
+如果您在项目中遇到问题需要解决，可以：
+
+1. 使用搜索功能查找相关解决方案
+2. 浏览「解决方案」板块，寻找类似场景的解决思路
+3. 参考技术教程中的实现方法
+
+## 内容更新
+
+知识库会定期更新，包括：
+
+- 新增热门技术领域的内容
+- 更新现有内容以反映技术发展
+- 补充实际项目案例和解决方案
+- 修正内容中的错误和不完善之处
+
+## 反馈与建议
+
+如果您对知识库有任何反馈或建议，欢迎通过以下方式联系我们：
+
+- 提交Issue
+- 发送邮件
+- 参与讨论
+
+我们致力于打造一个高质量的技术知识库，您的反馈对我们非常重要！
+
+---
+
+现在，开始探索知识库的内容吧！选择您感兴趣的技术领域，开启您的技术学习之旅。
