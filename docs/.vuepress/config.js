@@ -24,7 +24,7 @@ export default defineUserConfig({
         link: '/get-started'
       },
       {
-        text: '面试题',
+        text: '基础知识',
         children: [
           { text: 'Java基础', link: '/interview/java/basic/' },
           { text: 'Java高级', link: '/interview/java/advanced/' },
