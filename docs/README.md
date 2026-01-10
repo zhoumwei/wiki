@@ -29,22 +29,22 @@ footer: MIT 许可证 | 版权所有 © 2026
 ---
 
 <div style="text-align: center; margin: 40px 0;">
-  <img src="/wiki/images/modern-tech-stack.svg" alt="技术栈展示" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  <img src="/wiki/images/modern-tech-stack.svg" alt="技术栈展示" style="width: 200px; height: 150px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); pointer-events: none; user-select: none;" ondragstart="return false;">
 </div>
 
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap; margin: 40px 0; gap: 20px;">
   <div style="text-align: center; flex: 1; min-width: 200px; padding: 20px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-    <img src="/wiki/images/modern-java-icon.svg" alt="Java" style="width: 60px; height: 60px; margin-bottom: 15px;">
+    <img src="/wiki/images/modern-java-icon.svg" alt="Java" style="width: 60px; height: 60px; margin-bottom: 15px; pointer-events: none; user-select: none;" ondragstart="return false;">
     <h3>Java生态</h3>
     <p>从基础到高级，全面掌握Java核心技术</p>
   </div>
   <div style="text-align: center; flex: 1; min-width: 200px; padding: 20px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-    <img src="/wiki/images/modern-spring-icon.svg" alt="Spring" style="width: 60px; height: 60px; margin-bottom: 15px;">
+    <img src="/wiki/images/modern-spring-icon.svg" alt="Spring" style="width: 60px; height: 60px; margin-bottom: 15px; pointer-events: none; user-select: none;" ondragstart="return false;">
     <h3>Spring全家桶</h3>
     <p>Spring Boot、Spring Cloud微服务架构</p>
   </div>
   <div style="text-align: center; flex: 1; min-width: 200px; padding: 20px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-    <img src="/wiki/images/modern-frontend-icon.svg" alt="前端技术" style="width: 60px; height: 60px; margin-bottom: 15px;">
+    <img src="/wiki/images/modern-frontend-icon.svg" alt="前端技术" style="width: 60px; height: 60px; margin-bottom: 15px; pointer-events: none; user-select: none;" ondragstart="return false;">
     <h3>前端技术</h3>
     <p>Vue、React等现代前端框架</p>
   </div>
