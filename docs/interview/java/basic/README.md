@@ -106,6 +106,32 @@
 3. 如果该位置没有元素，则直接插入；如果有元素，则判断key是否相等
 4. 如果key相等则覆盖原值；如果不相等则形成链表（JDK 8以后会转为红黑树）
 
+**关于key相等时的数据可靠性：**
+
+当HashMap中存在相同的key时，Java通过以下机制保证数据的可靠性：
+
+- **equals() 和 hashCode() 一致性**：HashMap依赖key对象的hashCode()方法和equals()方法。只有当两个key的hashCode相等且equals()返回true时，才认为是相同的key。
+- **覆盖策略**：当发现相同的key时，新值会覆盖旧值，这确保了最新的数据总是可用的。
+- **线程安全性**：在多线程环境下，HashMap本身不是线程安全的，如需保证线程安全应使用ConcurrentHashMap或Collections.synchronizedMap()包装。
+- **不可变性建议**：推荐使用不可变对象作为key（如String、Integer等），避免因key状态变化导致的数据查找问题。
+
+**关于哈希冲突时的取值准确性：**
+
+当不同的key因hash值相同而存放到同一位置形成链表时，HashMap通过以下机制确保不会取错值：
+
+- **逐个比较**：在链表中查找时，HashMap会从头节点开始遍历，对每个节点调用key.equals()方法进行比较。
+- **精确匹配**：只有当key的hashCode相等且equals()返回true时，才会返回对应的value，确保取到正确的值。
+- **链表/红黑树遍历**：在JDK 8+中，如果链表长度超过阈值（默认8），会转换为红黑树以提高查找效率，但仍保持基于equals()的精确匹配。
+
+**关于hash和hashCode的区别：**
+
+key的hash和hashCode是两个相关但不同的概念：
+
+- **hashCode()**：是Object类中的方法，由key对象自身决定返回值。它是一个整数值，表示对象的原始哈希码。
+- **hash**：是HashMap内部对key的hashCode进行二次处理后的结果，经过扰动函数进一步打散，以减少哈希冲突的概率。
+- **关系**：HashMap使用自己的hash()方法对key.hashCode()的结果进行进一步运算，然后再与数组长度进行运算确定最终的存储位置。
+
+
 ### Q13: 当向List中存放一个数据时，发生了什么？
 **答：** 当向List中添加一个元素时，具体过程取决于List的具体实现：
 
