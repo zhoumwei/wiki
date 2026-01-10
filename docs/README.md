@@ -7,7 +7,7 @@ heroText: 技术知识库
 tagline: 系统化的技术学习平台
 actions:
   - text: 开始阅读
-    link: /get-started/
+    link: /get-started.html
     type: primary
 
   - text: 面试题
