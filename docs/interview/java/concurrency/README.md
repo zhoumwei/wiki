@@ -184,6 +184,7 @@
 
 ### Q14: CountDownLatch和CyclicBarrier的区别？
 **答：**
+
 | 特性 | CountDownLatch | CyclicBarrier |
 |------|----------------|---------------|
 | 作用 | 一个或多个线程等待其他线程完成操作 | 一组线程互相等待到达屏障点 |

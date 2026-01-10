@@ -62,6 +62,8 @@ export default defineUserConfig({
         ]
       }
     ],
+    lastUpdated: false,
+    contributors: false,
     sidebar: {
       '/get-started': [
         {
