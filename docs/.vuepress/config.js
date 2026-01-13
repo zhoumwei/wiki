@@ -24,22 +24,34 @@ export default defineUserConfig({
         link: '/get-started'
       },
       {
-        text: '基础知识',
+        text: 'Java',
         children: [
           { text: 'Java基础', link: '/interview/java/basic/' },
           { text: 'Java高级', link: '/interview/java/advanced/' },
           { text: 'Java集合详解', link: '/interview/java/collections/' },
           { text: 'Java多线程详解', link: '/interview/java/concurrency/' },
           { text: 'JDK版本变化详解', link: '/interview/java/jdk-changes/' },
-          { text: 'Spring Boot', link: '/interview/spring-boot/' },
-          { text: 'Spring Cloud', link: '/interview/spring-cloud/' },
-          { text: 'Vue', link: '/interview/vue/' },
-          { text: 'Node.js', link: '/interview/nodejs/' },
-          { text: '大数据', link: '/interview/big-data/' },
-          { text: '消息队列', link: '/interview/message-queue/' },
-          { text: '数据库', link: '/interview/database/' }
+          // { text: 'Spring Boot', link: '/interview/spring-boot/' },
+          // { text: 'Spring Cloud', link: '/interview/spring-cloud/' },
+          // { text: 'Vue', link: '/interview/vue/' },
+          // { text: 'Node.js', link: '/interview/nodejs/' },
+          // { text: '大数据', link: '/interview/big-data/' },
+          // { text: '消息队列', link: '/interview/message-queue/' },
+          // { text: '数据库', link: '/interview/database/' }
         ]
       },
+        {
+            text: 'Spring',
+            children: [
+                { text: 'Spring Boot', link: '/interview/spring-boot/' },
+                { text: 'Spring Cloud', link: '/interview/spring-cloud/' },
+                // { text: 'Vue', link: '/interview/vue/' },
+                // { text: 'Node.js', link: '/interview/nodejs/' },
+                // { text: '大数据', link: '/interview/big-data/' },
+                // { text: '消息队列', link: '/interview/message-queue/' },
+                // { text: '数据库', link: '/interview/database/' }
+            ]
+        },
       // {
       //   text: '技术教程',
       //   children: [
