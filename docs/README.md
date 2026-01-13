@@ -10,9 +10,9 @@ actions:
     link: /get-started.html
     type: primary
 
-  - text: 面试题
-    link: /interview/java/basic/
-    type: secondary
+#  - text: 面试题
+#    link: /interview/java/basic/
+#    type: secondary
 
 features:
   - title: 🚀 全面的技术覆盖
