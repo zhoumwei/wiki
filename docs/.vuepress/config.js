@@ -69,6 +69,7 @@ export default defineUserConfig({
         text: '解决方案',
         children: [
           { text: 'AIOps', link: '/solution/aiops/' },
+          { text: 'FinOps', link: '/solution/finops/' },
           { text: '高可用架构', link: '/solution/high-availability/' },
           { text: '智能营销', link: '/solution/smart-marketing/' }
         ]
@@ -219,6 +220,19 @@ export default defineUserConfig({
         {
           text: '智能营销解决方案',
           link: '/solution/smart-marketing/'
+        }
+      ],
+      '/solution/finops/': [
+        {
+          text: 'FinOps解决方案',
+          link: '/solution/finops/',
+          children: [
+            '/solution/finops/concept.md',
+            '/solution/finops/implementation.md',
+            '/solution/finops/tools.md',
+            '/solution/finops/case-studies.md',
+            '/solution/finops/risk-trends.md'
+          ]
         }
       ]
     }
