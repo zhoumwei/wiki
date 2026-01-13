@@ -4,7 +4,7 @@ title: 知识库
 description: 涵盖Java、Spring、Vue、Node.js等技术知识
 #heroImage: /images/hero-banner.svg
 heroText: 技术知识库
-tagline: 系统化的技术学习平台
+#tagline: 系统化的技术学习平台
 actions:
   - text: 开始阅读
     link: /get-started.html
