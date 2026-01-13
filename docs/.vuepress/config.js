@@ -13,7 +13,7 @@ export default defineUserConfig({
   },
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: '/logo/new-logo.svg',
     navbar: [
       {
         text: '首页',
