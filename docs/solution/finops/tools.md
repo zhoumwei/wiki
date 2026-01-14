@@ -13,6 +13,8 @@
 ### 1. 云平台原生工具
 
 #### AWS Cost Management Suite
+**官方网站**: [AWS Cost Management](https://aws.amazon.com/aws-cost-management/)
+
 **基本信息**
 - 付费模式: 免费内置 + 高级功能付费
 - 开源状态: 闭源
@@ -52,6 +54,8 @@
 - 自定义报表能力弱
 
 #### Azure Cost Management
+**官方网站**: [Azure Cost Management](https://azure.microsoft.com/en-us/services/cost-management/)
+
 **基本信息**
 - 付费模式: 免费内置 + 企业版付费
 - 开源状态: 闭源
@@ -68,6 +72,8 @@
 ```
 
 #### Google Cloud Billing
+**官方网站**: [Google Cloud Billing](https://cloud.google.com/billing)
+
 **基本信息**
 - 付费模式: 免费基础 + 高级功能付费
 - 开源状态: 闭源
@@ -77,6 +83,8 @@
 ### 2. 第三方商业工具
 
 #### CloudHealth by VMware
+**官方网站**: [CloudHealth](https://www.cloudhealthtech.com/)
+
 **基本信息**
 - 付费模式: 企业级订阅制 ($500+/月起)
 - 开源状态: 闭源
@@ -109,6 +117,8 @@
 ```
 
 #### Apptio Cloudability
+**官方网站**: [Apptio Cloudability](https://www.apptio.com/products/cloudability/)
+
 **基本信息**
 - 付费模式: 企业级订阅 ($1000+/月)
 - 开源状态: 闭源
@@ -121,7 +131,54 @@
 - ROI 分析和投资回报计算
 - 与 ERP 系统集成能力
 
+#### ProsperOps
+**官方网站**: [ProsperOps](https://www.prosperops.com/)
+
+**基本信息**
+- 付费模式: 基于节省效果收费 + 按资源计费
+- 开源状态: 闭源
+- 整合难度: 简单到中等
+- 适用场景: 多云自动化成本优化
+
+**核心功能**
+```
+├── Autonomous Discount Management (ADM)
+│   ├── 功能: 自动化折扣管理
+│   ├── 收费模式: 节省金额的百分比
+│   ├── 支持平台: AWS/Azure/GCP
+│   └── 特点: 无前期投入，按效果付费
+├── Autonomous Resource Management (ARM)
+│   ├── 功能: 自动化资源管理
+│   ├── 收费模式: 按托管资源数量
+│   ├── 支持平台: AWS (Azure/GCP即将支持)
+│   └── 特点: 持续优化，动态调整
+├── Intelligent Showback
+│   ├── 功能: 智能成本分摊
+│   ├── 特点: 自动重新分配承诺成本
+│   └── 应用: 精确财务报告
+└── Savings Insights
+    ├── 功能: 节省洞察分析
+    ├── 特点: 可视化净节省和有效节省率
+    └── 指标: 顶级FinOps团队表现(前1-2%)
+```
+
+**技术优势**
+✅ 优势:
+- 真正的自动化优化，无需人工干预
+- 基于AI的智能算法调整
+- 平均每月节省提升68%
+- 风险最小化的承诺管理
+- 支持多云环境统一管理
+
+❌ 局限性:
+- 主要聚焦计算资源优化
+- 对非计算资源支持有限
+- 需要一定的IAM权限配置
+- 依赖平台API可用性
+
 #### Spot.io (now part of Microsoft)
+**官方网站**: [Spot.io](https://spot.io/)
+
 **基本信息**
 - 付费模式: Freemium + 企业版
 - 开源状态: 部分开源
@@ -143,6 +200,10 @@
 ### 3. 开源工具生态系统
 
 #### OpenCost
+**官方网站**: [OpenCost](https://www.opencost.io/)
+
+**Demo地址**：https://demo.infra.opencost.io/allocation
+
 **基本信息**
 - 付费模式: 完全免费
 - 开源状态: CNCF 沙箱项目 (Apache 2.0)
@@ -176,6 +237,8 @@ helm install opencost opencost/opencost \
 ```
 
 #### Kubecost
+**官方网站**: [Kubecost](https://kubecost.com/)
+
 **基本信息**
 - 付费模式: 开源版免费 + 企业版付费
 - 开源状态: 核心开源 (Apache 2.0)
@@ -193,7 +256,13 @@ helm install opencost opencost/opencost \
 | 自定义分摊规则 | 有限 | 完整 |
 | 优先技术支持 | ❌ | ✅ |
 
+**安装测试文档**：hhttps://www.apptio.com/products/kubecost/install-thankyou
+
 #### Infracost
+**官方网站**: [Infracost](https://www.infracost.io/)
+
+使用模式：https://dashboard.infracost.io/org/zhoumwei/onboarding
+
 **基本信息**
 - 付费模式: 开源免费 + CI/CD 集成付费
 - 开源状态: 完全开源 (Apache 2.0)
@@ -284,6 +353,7 @@ helm install opencost opencost/opencost \
 |---------|---------|---------|-----------|--------|---------|---------|---------|
 | AWS Cost Explorer | 5 | 3 | 5 | 2 | 5 | 4 | 3.8 |
 | CloudHealth | 3 | 5 | 3 | 5 | 4 | 5 | 4.2 |
+| ProsperOps | 5 | 4 | 4 | 4 | 4 | 4 | 4.2 |
 | OpenCost | 5 | 4 | 2 | 4 | 3 | 2 | 3.3 |
 | Kubecost | 4 | 5 | 3 | 4 | 4 | 4 | 4.0 |
 | 自建方案 | 5 | 5 | 1 | 5 | 3 | 1 | 3.3 |
@@ -307,6 +377,7 @@ helm install opencost opencost/opencost \
 ```
 推荐组合:
 ├── Kubecost/OpenCost (K8s 成本)
+├── ProsperOps (自动化优化)
 ├── CloudHealth (多云管理)
 └── 商业智能工具集成
 
