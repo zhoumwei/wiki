@@ -23,7 +23,7 @@
 
 ## Function Calling 做什么的？
 
-![image](siri_send_img.gif)
+![image](./assets/03-func-call/siri_send_img.gif)
 
 ## 接口（Interface）
 
