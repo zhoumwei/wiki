@@ -52,19 +52,19 @@ export default defineUserConfig({
                 // { text: '数据库', link: '/interview/database/' }
             ]
         },
-      // {
-      //   text: '技术教程',
-      //   children: [
-      //     { text: 'LLM', link: '/tutorial/llm/' },
-      //     { text: '强化学习', link: '/tutorial/rl/' },
-      //     { text: '机器学习', link: '/tutorial/ml/' },
-      //     { text: 'R语言', link: '/tutorial/r/' },
-      //     { text: 'Python', link: '/tutorial/python/' },
-      //     { text: 'React', link: '/tutorial/react/' },
-      //     { text: 'Swift', link: '/tutorial/swift/' },
-      //     { text: '嵌入式', link: '/tutorial/embedded/' }
-      //   ]
-      // },
+      {
+        text: '技术教程',
+        children: [
+          { text: 'LLM', link: '/tutorial/llm/' },
+          // { text: '强化学习', link: '/tutorial/rl/' },
+          // { text: '机器学习', link: '/tutorial/ml/' },
+          // { text: 'R语言', link: '/tutorial/r/' },
+          // { text: 'Python', link: '/tutorial/python/' },
+          // { text: 'React', link: '/tutorial/react/' },
+          // { text: 'Swift', link: '/tutorial/swift/' },
+          // { text: '嵌入式', link: '/tutorial/embedded/' }
+        ]
+      },
       {
         text: '解决方案',
         children: [
