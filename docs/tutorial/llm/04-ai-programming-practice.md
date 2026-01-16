@@ -47,19 +47,19 @@
 ## 安装过程
 1. 在VSCode中查找"TONGYI Lingma"
    
-![image](./assets/04-ai-programming/images/tongyi_step1.PNG)
+![image](./assets/04-ai-programming/images/tongyi_step1.png)
 
 2. 安装成功后，注册阿里云账号，登录TONGYI Lingma
    
-![image](./assets/04-ai-programming/images/tongyi_step2.PNG)
+![image](./assets/04-ai-programming/images/tongyi_step2.png)
 
 3. 登录成功显示
 
-![image](./assets/04-ai-programming/images/tongyi_step3.PNG)
+![image](./assets/04-ai-programming/images/tongyi_step3.png)
 
 4. 新建文件，进入文件开始使用
 
-![image](./assets/04-ai-programming/images/tongyi_step4.PNG)
+![image](./assets/04-ai-programming/images/tongyi_step4.png)
 
 ## 其他工具推荐
 ### CodeGeex 
