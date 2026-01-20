@@ -15,9 +15,10 @@
 
 这节课直播演示如何从头写一个 Agent。
 
-源代码从左边目录树中，右键点击 `autogpt.zip` 下载。如下图：
+[//]: # (源代码从左边目录树中，右键点击 `autogpt.zip` 下载。如下图：)
 
-![image](./assets/10-agent/download.png)
+[//]: # ()
+[//]: # (![image]&#40;./assets/10-agent/download.png&#41;)
 
 ## 1、功能描述
 
