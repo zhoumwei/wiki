@@ -393,9 +393,14 @@ GreenOps
 - 某些高级功能可能需要额外配置
 - 对其他云平台支持有限
 
+### 3. 开源工具生态系统
+
 #### OptScale by Hystax
 **官方网站**: [OptScale](https://hystax.com/documentation/optscale/index.html)
+
 **开源代码库**: [GitHub - hystax/optscale](https://github.com/hystax/optscale)
+
+**Live Demo**: https://my.optscale.com/
 
 **基本信息**
 - 付费模式: 企业级订阅
@@ -471,6 +476,30 @@ GreenOps
 - Policies: 异常模式识别和生命周期管理
 - Sandbox: K8s资源使用评估和实例定价比较
 
+**OptScale 平台功能截图**
+以下为OptScale平台的主要功能界面截图：
+
+![Home Dashboard](./asset/optScale/01-home.png)
+![Recommendations](./asset/optScale/02-Recommendations.png)
+![Resources](./asset/optScale/03-Resources.png)
+![Pools](./asset/optScale/04-pools.png)
+![Shared Environments](./asset/optScale/05-Shared Environments.png)
+![Cost Explorer](./asset/optScale/06-Cost Explorer.png)
+![Cost Map](./asset/optScale/07-Cost Map.png)
+![FinOps Portal](./asset/optScale/08-FinOps Portal.png)
+![Anomaly Detection](./asset/optScale/09-Anomaly Detection.png)
+![Quotas and Budgets](./asset/optScale/10-Quotas and Budgets.png)
+![Tagging](./asset/optScale/11-Tagging.png)
+![Resource Lifecycle](./asset/optScale/12-Resource Lifecycle.png)
+![Power Schedules](./asset/optScale/13-Power Schedules.png)
+![K8s Rightsizing](./asset/optScale/14-K8s Rightsizing.png)
+![Archived](./asset/optScale/15-Archived.png)
+![Cloud Cost Comparison](./asset/optScale/16-Cloud Cost Comparison.png)
+![User Management](./asset/optScale/17-User Management.png)
+![Data Sources](./asset/optScale/18-Data Sources.png)
+![Integrations](./asset/optScale/19-Integrations.png)
+![Events](./asset/optScale/20-Events.png)
+
 **优劣势分析**
 ✅ 优势:
 - 支持多云和混合云环境
@@ -485,7 +514,6 @@ GreenOps
 - 某些高级功能可能需要额外成本
 - 依赖云平台只读权限的数据获取
 
-### 3. 开源工具生态系统
 
 #### OpenCost
 **官方网站**: [OpenCost](https://www.opencost.io/)
