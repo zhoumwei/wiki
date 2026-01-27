@@ -654,12 +654,104 @@ helm install opencost opencost/opencost \
 - 华为云 (全球及中国区)
 - Kubernetes (跨平台)
 
+**支持的云原生资源**
+- Pods, Nodes, Namespaces, Deployments, StatefulSets, DaemonSets
+- Services, LoadBalancers, PersistentVolumes
+- GPU资源
+- 网络资源和流量
+
 **核心功能**
 - Kubernetes 成本监控
 - 资源分摊
 - 预算管理
 - 优化建议
 - 多集群支持
+- 网络流量成本分配
+- 外部成本跟踪
+- 效率和闲置资源分析
+- 集群详细信息监控
+- 资产仪表板
+- 云成本资源管理器
+- 团队成本管理
+- 服务账户成本跟踪
+- 异常检测
+- 审计功能
+- 集合（Collections）管理
+
+**核心功能详解**
+```
+├── 成本分配 (Allocations)
+│   ├── 功能: 按命名空间、控制器、标签等维度分配成本
+│   ├── 特点: 详细的资源使用和成本分配可视化
+│   └── 价值: 实现精细化成本分摊
+├── 效率和闲置资源分析
+│   ├── 功能: 识别资源使用效率低下和闲置资源
+│   ├── 特点: 按类型分析CPU、内存等闲置资源
+│   └── 价值: 优化资源利用率，降低成本
+├── 网络流量成本分配
+│   ├── 功能: 追踪和分配网络流量成本
+│   ├── 特点: 网络监控和成本可视化
+│   └── 价值: 了解网络成本构成
+├── 资产仪表板
+│   ├── 功能: 展示集群和节点级别的成本
+│   ├── 特点: 资产层面的成本视图
+│   └── 价值: 硬件资源成本分析
+├── 云成本资源管理器
+│   ├── 功能: 详细的云资源成本分析
+│   ├── 特点: 云提供商成本可视化
+│   └── 价值: 云资源成本透明化
+├── 集群详细信息
+│   ├── 功能: 集群和节点详细信息监控
+│   ├── 特点: 集群健康状况和资源使用
+│   └── 价值: 集群运维和成本优化
+├── 外部成本
+│   ├── 功能: 跟踪非Kubernetes资源成本
+│   ├── 特点: LoadBalancer、PV等外部资源
+│   └── 价值: 完整成本视图
+├── 预算和告警
+│   ├── 功能: 设置预算和成本告警
+│   ├── 特点: 预算监控和通知
+│   └── 价值: 成本控制和预警
+├── 集合（Collections）管理
+│   ├── 功能: 按团队、项目等逻辑分组管理成本
+│   ├── 特点: 基于标签的灵活分组
+│   └── 价值: 团队级成本分摊和责任
+├── 团队成本管理
+│   ├── 功能: 按团队分配和管理成本
+│   ├── 特点: 团队级成本仪表板
+│   └── 价值: 促进成本责任制度
+├── 异常检测
+│   ├── 功能: 自动检测成本异常
+│   ├── 特点: 智能异常识别和告警
+│   └── 价值: 防范意外成本增加
+└── 审计功能
+    ├── 功能: 成本和资源使用审计
+    ├── 特点: 详细的审计日志
+    └── 价值: 合规性和成本分析
+```
+
+**架构信息**
+Kubecost采用云原生架构设计，与Kubernetes生态系统深度集成。
+
+```
+Kubecost架构组件:
+├── 指标收集层
+│   ├── Prometheus: 收集Kubernetes和云提供商指标
+│   ├── Kubernetes API: 获取集群和资源信息
+│   └── 云提供商API: 获取定价和资源信息
+├── 数据处理层
+│   ├── 成本模型: 计算资源成本
+│   ├── 分配引擎: 成本分配算法
+│   └── 预测引擎: 成本预测和趋势分析
+├── 存储层
+│   ├── 时序数据库: 存储指标数据
+│   ├── 配置存储: 存储配置和规则
+│   └── 缓存层: 提高性能
+└── 展示层
+    ├── Web UI: 图形化仪表板
+    ├── API接口: RESTful和GraphQL API
+    └── 集成接口: 与其他工具集成
+```
 
 **版本对比**
 
@@ -671,8 +763,123 @@ helm install opencost opencost/opencost \
 | SSO 集成 | ❌ | ✅ |
 | 自定义分摊规则 | 有限 | 完整 |
 | 优先技术支持 | ❌ | ✅ |
+| 高级预算管理 | ❌ | ✅ |
+| 异常检测 | ❌ | ✅ |
+| 集合管理 | ❌ | ✅ |
+| 审计日志 | ❌ | ✅ |
+| 网络成本分配 | ❌ | ✅ |
+| 外部成本跟踪 | ❌ | ✅ |
+
+**Kubecost 平台功能截图**
+以下为Kubecost平台的主要功能界面截图:
+
+Overview
+![Kubecost Overview](./asset/kubecost/01-Overview.png)
+
+Allocations Dashboard
+![Allocations Dashboard](./asset/kubecost/02-Allocations Dashboard.png)
+
+Efficiency and Idle Resources
+![Efficiency and Idle](./asset/kubecost/02-Efficiency and Idle.png)
+
+Network Traffic Cost Allocation
+![Network Traffic Cost](./asset/kubecost/03-Network Traffic Cost Allocation.png)
+
+Assets Dashboard
+![Assets Dashboard](./asset/kubecost/04-Assets Dashboard.png)
+
+Cloud Cost Explorer
+![Cloud Cost Explorer](./asset/kubecost/05-Cloud Cost Explorer.png)
+
+Clusters Dashboard
+![Clusters Dashboard](./asset/kubecost/06-Clusters Dashboard.png)
+
+Cluster Details
+![Cluster Details](./asset/kubecost/06-Cluster Details.png)
+
+Efficiency Dashboard
+![Efficiency Dashboard](./asset/kubecost/07-Efficiency Dashboard.png)
+
+Efficiency Report
+![Efficiency Report](./asset/kubecost/07-Efficiency Report.png)
+
+Idle by Type
+![Idle by Type](./asset/kubecost/07-Idle by Type.png)
+
+External Costs
+![External Costs](./asset/kubecost/08-External Costs.png)
+
+Network Monitoring
+![Network Monitoring](./asset/kubecost/09-Network Monitoring.png)
+
+Collections
+![Collections](./asset/kubecost/10-Collections.png)
+
+Collections Owner View
+![Collections Owner View](./asset/kubecost/10-Collections Owner.png)
+
+Reports
+![Reports](./asset/kubecost/11-Reports.png)
+
+Alerts
+![Alerts](./asset/kubecost/12-Alerts.png)
+
+Savings
+![Savings](./asset/kubecost/13-Saving.png)
+
+Budgets
+![Budgets](./asset/kubecost/14-Budgets.png)
+
+Audits
+![Audits](./asset/kubecost/15-Audits.png)
+
+Anomaly Detection
+![Anomaly Detection](./asset/kubecost/16-Anomaly Detection .png)
+
+Teams
+![Teams](./asset/kubecost/17-Teams.png)
+
+Service Accounts
+![Service Accounts](./asset/kubecost/18-Service Accounts.png)
+
+**架构图**
+
+Kubecost Core Architecture
+![Kubecost Core Architecture](./asset/kubecost/Kubecost Core Architecture01.png)
+
+Kubecost Core Architecture Detail
+![Kubecost Core Architecture Detail](./asset/kubecost/Kubecost Core Architecture02.png)
+
+Kubecost Enterprise Architecture Overview
+![Enterprise Architecture](./asset/kubecost/Kubecost Enterprise Architecture Overview.png)
+
+**文档资源**
+- [如何构建DevOps工作流程中的成本意识](./asset/kubecost/how-build-cost-awareness-into-devops-workflows.pdf)
+- [如何提供所需的云成本可见性](./asset/kubecost/how-to-deliver-the-cloud-cost-visibility-you-need.pdf)
+- [如何成熟您的FinOps能力](./asset/kubecost/how-to-mature-your-finops-capabilities.pdf)
 
 **安装测试文档**：hhttps://www.apptio.com/products/kubecost/install-thankyou
+
+**优劣势分析**
+✅ 优势:
+- Kubernetes原生集成，深度理解K8s资源
+- 提供详细的成本分配和分摊功能
+- 支持多集群管理和跨集群成本分析
+- 具备效率和闲置资源分析能力
+- 提供网络成本分配功能
+- 支持外部成本跟踪(如LoadBalancer、PV等)
+- 丰富的可视化仪表板和报告
+- 拥有开源版本，降低了使用门槛
+- 提供API接口，便于集成
+- 企业版具备高级告警和预算管理功能
+
+❌ 局限性:
+- 主要专注于Kubernetes环境
+- 开源版本功能有限
+- 需要访问云提供商API获取定价数据
+- 多集群支持仅在企业版中提供
+- 复杂的多租户管理功能需要企业版
+- 对非云原生资源的支持有限
 
 #### Infracost
 **官方网站**: [Infracost](https://www.infracost.io/)
