@@ -509,27 +509,47 @@ GreenOps
 - 按所有者划分的成本细分
 
 **OptScale 平台功能截图**
-以下为OptScale平台的主要功能界面截图:
 
+以下为OptScale平台的主要功能界面截图:
+home
 ![Home Dashboard](./asset/optScale/01-home.png)
+Recommendations
 ![Recommendations](./asset/optScale/02-Recommendations.png)
+Resources
 ![Resources](./asset/optScale/03-Resources.png)
+Pools
 ![Pools](./asset/optScale/04-pools.png)
+Shared Environments
 ![Shared Environments](./asset/optScale/05-Shared Environments.png)
+Cost Explorer
 ![Cost Explorer](./asset/optScale/06-Cost Explorer.png)
+Cost Map
 ![Cost Map](./asset/optScale/07-Cost Map.png)
+FinOps Portal
 ![FinOps Portal](./asset/optScale/08-FinOps Portal.png)
+Anomaly Detection
 ![Anomaly Detection](./asset/optScale/09-Anomaly Detection.png)
+Quotas and Budgets
 ![Quotas and Budgets](./asset/optScale/10-Quotas and Budgets.png)
+Tagging
 ![Tagging](./asset/optScale/11-Tagging.png)
+Resource Lifecycle
 ![Resource Lifecycle](./asset/optScale/12-Resource Lifecycle.png)
+Power Schedules
 ![Power Schedules](./asset/optScale/13-Power Schedules.png)
+K8s Rightsizing
 ![K8s Rightsizing](./asset/optScale/14-K8s Rightsizing.png)
+Archived
 ![Archived](./asset/optScale/15-Archived.png)
+Cloud Cost Comparison
 ![Cloud Cost Comparison](./asset/optScale/16-Cloud Cost Comparison.png)
+User Management
 ![User Management](./asset/optScale/17-User Management.png)
+Data Sources
 ![Data Sources](./asset/optScale/18-Data Sources.png)
+Integrations
 ![Integrations](./asset/optScale/19-Integrations.png)
+Events
 ![Events](./asset/optScale/20-Events.png)
 
 **优劣势分析**
@@ -565,8 +585,6 @@ GreenOps
 - Azure (全球及中国区)
 - GCP (全球区域，中国区受限)
 - 阿里云 (全球及中国区)
-- 腾讯云 (全球及中国区)
-- 华为云 (全球及中国区)
 - Kubernetes (跨平台)
 
 **核心功能**
@@ -592,6 +610,18 @@ GreenOps
     ├── 认证授权: RBAC 支持
     └── 扩展性: 插件化架构
 ```
+**OpenCost功能截图**
+
+以下为OpenCost平台的主要功能界面截图:
+Cost Allocation
+![OpenCost Dashboard](./asset/opencost/Cost Allocation.png)
+Cloud Costs
+![OpenCost Dashboard](./asset/opencost/Cloud Costs.png)
+External Costs
+![OpenCost Dashboard](./asset/opencost/External Costs.png)
+
+
+
 
 **部署方式**
 ```yaml
@@ -604,6 +634,10 @@ helm install opencost opencost/opencost \
 
 #### Kubecost
 **官方网站**: [Kubecost](https://kubecost.com/)
+
+**代码仓库**：https://github.com/kubecost/kubecost
+
+**docs**: https://www.ibm.com/docs/en/kubecost/self-hosted/3.x
 
 **基本信息**
 - 付费模式: 开源版免费 + 企业版付费
