@@ -887,10 +887,19 @@ Kubecost Enterprise Architecture Overview
 使用模式：https://dashboard.infracost.io/org/zhoumwei/onboarding
 
 **基本信息**
-- 付费模式: 开源免费 + CI/CD 集成付费
-- 开源状态: 完全开源 (Apache 2.0)
+- 付费模式: 开源免费 + Infracost Cloud 订阅制
+- 开源状态: CLI工具完全开源 (Apache 2.0)
 - 整合难度: 简单
 - 适用场景: 基础设施即代码成本预估
+- 商业模式: 主打Cloud SaaS模式，不适用于自部署
+
+**商业模式说明**
+Infracost采用独特的混合商业模式：
+- 核心CLI工具完全开源免费
+- Infracost Cloud提供企业级功能，采用订阅制收费
+- 不提供自部署选项，所有功能通过云服务交付
+- 免费试用期14天，支持席位制付费模式
+
 
 **云平台支持**
 - AWS (全球及中国区)
@@ -905,22 +914,99 @@ Kubecost Enterprise Architecture Overview
 - PR 成本分析
 - 多云支持
 - 预算告警
+- 成本治理策略
+- 标签管理
+- 报告生成
+- 自定义价格手册
+- 成本防护机制
+- 活动管理
+- Issue探索
 
-**核心功能**
+**核心功能详解**
 ```
-支持的 IaC 工具:
-├── Terraform (完整支持)
-├── Terragrunt
-├── OpenTofu
-├── CloudFormation
-└── Azure ARM Templates
+├── IaC 成本预估
+│   ├── 功能: 基础设施即代码成本预测
+│   ├── 支持: Terraform, Terragrunt, OpenTofu, CloudFormation
+│   └── 价值: 部署前成本评估
+├── CI/CD 集成
+│   ├── 功能: 持续集成/持续部署成本分析
+│   ├── 集成: GitHub Actions, GitLab CI, Jenkins等
+│   └── 价值: 自动化成本检查
+├── PR 成本分析
+│   ├── 功能: Pull Request成本影响分析
+│   ├── 特点: 代码审查时显示成本变化
+│   └── 价值: 早期成本控制
+├── 成本治理策略
+│   ├── 功能: FinOps政策和治理规则
+│   ├── 特点: 自动化合规检查
+│   └── 价值: 确保成本治理
+├── 标签管理
+│   ├── 功能: 资源标签和成本分摊
+│   ├── 特点: 自动标签建议
+│   └── 价值: 精细化成本归属
+├── 成本防护机制
+│   ├── 功能: 预算阈值和成本控制
+│   ├── 特点: 实时成本防护
+│   └── 价值: 防止成本超支
+├── 活动管理
+│   ├── 功能: 成本优化活动和倡议
+│   ├── 特点: 结构化优化流程
+│   └── 价值: 系统化成本改进
+└── Issue探索
+    ├── 功能: 成本相关问题发现和跟踪
+    ├── 特点: 智能问题识别
+    └── 价值: 主动成本优化
+```
 
-集成方式:
-├── CLI 工具: 本地开发环境
-├── CI/CD: GitHub Actions, GitLab CI
-├── IDE插件: VS Code, JetBrains
-└── PR 评论: 自动成本影响分析
-```
+**Infracost 平台功能截图**
+以下为Infracost Cloud平台的主要功能界面截图:
+
+Overview Dashboard
+![Overview Dashboard](./asset/infracost/01-dashboard.png)
+
+Issue Explorer
+![Issue Explorer](./asset/infracost/02-Issue Explorer.png)
+
+Campaigns
+![Campaigns](./asset/infracost/03-Campaigns.png)
+
+FinOps Policies
+![FinOps Policies](./asset/infracost/04-FinOps policies.png)
+
+Tagging
+![Tagging](./asset/infracost/05-tagging.png)
+
+Cost Guardrails
+![Cost Guardrails](./asset/infracost/06-Cost guardrails.png)
+
+Reports
+![Reports](./asset/infracost/07-Reports.png)
+
+Custom Price Books
+![Custom Price Books](./asset/infracost/08-Custom price books.png)
+
+Plans & Pricing
+![Plans & Pricing](./asset/infracost/plans&pricing.png)
+
+付费模式
+![付费模式](./asset/infracost/付费模式.png)
+
+**优劣势分析**
+✅ 优势:
+- CLI工具完全开源免费，降低使用门槛
+- 与主流IaC工具深度集成(Terraform等)
+- 提供PR级别的成本影响分析
+- Infracost Cloud提供企业级治理功能
+- 支持多云成本预估
+- 实时成本防护和预算控制
+- 丰富的报告和分析功能
+
+❌ 局限性:
+- 不支持自部署，必须使用云服务
+- 企业功能需要订阅付费
+- 依赖网络连接访问云服务
+- 数据需要上传到第三方平台
+- 高级治理功能仅在Cloud版本中提供
 
 #### CloudQuery
 **官方网站**: [CloudQuery](https://www.cloudquery.io/)
