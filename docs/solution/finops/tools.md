@@ -139,39 +139,39 @@
 以下为CloudHealth平台的主要功能界面截图：
 
 Resource and Organization Management
-![资源与组织管理](./asset/CloudHealth/Resource and Organization Management.png)
+![资源与组织管理](./asset/CloudHealth/Resource%20and%20Organization%20Management.png)
 Custom Dashboards
-![自定义仪表板](./asset/CloudHealth/Custom Dashboards.png)
+![自定义仪表板](./asset/CloudHealth/Custom%20Dashboards.png)
 Budget Management
-![预算管理](./asset/CloudHealth/Budget Management.png)
+![预算管理](./asset/CloudHealth/Budget%20Management.png)
 Forecasting
 ![成本预测](./asset/CloudHealth/Forecasting.png)
 Cost Allocation and Chargeback
-![成本分摊与反收费](./asset/CloudHealth/Cost Allocation and Chargeback.png)
+![成本分摊与反收费](./asset/CloudHealth/Cost%20Allocation%20and%20Chargeback.png)
 Rightsizing and Waste Reduction
-![权利化和浪费减少](./asset/CloudHealth/Rightsizing and Waste Reduction.png)
+![权利化和浪费减少](./asset/CloudHealth/Rightsizing%20and%20Waste%20Reduction.png)
 Optimization
 ![优化](./asset/CloudHealth/Optimization.png)
 Intelligent Assist
-![智能辅助](./asset/CloudHealth/Intelligent Assist.png)
+![智能辅助](./asset/CloudHealth/Intelligent%20Assist.png)
 Asset Explorer
-![资产探索](./asset/CloudHealth/Asset Explorer.png)
+![资产探索](./asset/CloudHealth/Asset%20Explorer.png)
 Governance and Automation
-![治理和自动化](./asset/CloudHealth/Governance and Automation.png)
+![治理和自动化](./asset/CloudHealth/Governance%20and%20Automation.png)
 Smart Summary
-![智能辅助](./asset/CloudHealth/Smart Summary.png)
+![智能辅助](./asset/CloudHealth/Smart%20Summary.png)
 GreenOps
 ![绿色运营](./asset/CloudHealth/GreenOps.png)
 
 **功能矩阵**
 
-| 功能模块 | 支持程度 | 特色优势 |
-|---------|---------|---------|
+| 功能模块   | 支持程度  | 特色优势                    |
+|--------|-------|-------------------------|
 | 多云成本管理 | ⭐⭐⭐⭐⭐ | 支持 AWS/Azure/GCP/Oracle |
-| 资源优化 | ⭐⭐⭐⭐⭐ | AI 驱动的优化建议 |
-| 预算管理 | ⭐⭐⭐⭐⭐ | 灵活的预算规则引擎 |
-| 合规监控 | ⭐⭐⭐⭐ | 内置合规模板 |
-| 自定义报表 | ⭐⭐⭐⭐⭐ | 强大的 BI 集成 |
+| 资源优化   | ⭐⭐⭐⭐⭐ | AI 驱动的优化建议              |
+| 预算管理   | ⭐⭐⭐⭐⭐ | 灵活的预算规则引擎               |
+| 合规监控   | ⭐⭐⭐⭐  | 内置合规模板                  |
+| 自定义报表  | ⭐⭐⭐⭐⭐ | 强大的 BI 集成               |
 
 **部署要求**
 ```
@@ -1382,33 +1382,33 @@ Resources
 Pools
 ![Pools](./asset/optScale/04-pools.png)
 Shared Environments
-![Shared Environments](./asset/optScale/05-Shared Environments.png)
+![Shared Environments](./asset/optScale/05-Shared%20Environments.png)
 Cost Explorer
-![Cost Explorer](./asset/optScale/06-Cost Explorer.png)
+![Cost Explorer](./asset/optScale/06-Cost%20Explorer.png)
 Cost Map
-![Cost Map](./asset/optScale/07-Cost Map.png)
+![Cost Map](./asset/optScale/07-Cost%20Map.png)
 FinOps Portal
-![FinOps Portal](./asset/optScale/08-FinOps Portal.png)
+![FinOps Portal](./asset/optScale/08-FinOps%20Portal.png)
 Anomaly Detection
-![Anomaly Detection](./asset/optScale/09-Anomaly Detection.png)
+![Anomaly Detection](./asset/optScale/09-Anomaly%20Detection.png)
 Quotas and Budgets
-![Quotas and Budgets](./asset/optScale/10-Quotas and Budgets.png)
+![Quotas and Budgets](./asset/optScale/10-Quotas%20and%20Budgets.png)
 Tagging
 ![Tagging](./asset/optScale/11-Tagging.png)
 Resource Lifecycle
-![Resource Lifecycle](./asset/optScale/12-Resource Lifecycle.png)
+![Resource Lifecycle](./asset/optScale/12-Resource%20Lifecycle.png)
 Power Schedules
-![Power Schedules](./asset/optScale/13-Power Schedules.png)
+![Power Schedules](./asset/optScale/13-Power%20Schedules.png)
 K8s Rightsizing
-![K8s Rightsizing](./asset/optScale/14-K8s Rightsizing.png)
+![K8s Rightsizing](./asset/optScale/14-K8s%20Rightsizing.png)
 Archived
 ![Archived](./asset/optScale/15-Archived.png)
 Cloud Cost Comparison
-![Cloud Cost Comparison](./asset/optScale/16-Cloud Cost Comparison.png)
+![Cloud Cost Comparison](./asset/optScale/16-Cloud%20Cost%20Comparison.png)
 User Management
-![User Management](./asset/optScale/17-User Management.png)
+![User Management](./asset/optScale/17-User%20Management.png)
 Data Sources
-![Data Sources](./asset/optScale/18-Data Sources.png)
+![Data Sources](./asset/optScale/18-Data%20Sources.png)
 Integrations
 ![Integrations](./asset/optScale/19-Integrations.png)
 Events
@@ -1476,11 +1476,11 @@ Events
 
 以下为OpenCost平台的主要功能界面截图:
 Cost Allocation
-![OpenCost Dashboard](./asset/opencost/Cost Allocation.png)
+![OpenCost Dashboard](./asset/opencost/Cost%20Allocation.png)
 Cloud Costs
-![OpenCost Dashboard](./asset/opencost/Cloud Costs.png)
+![OpenCost Dashboard](./asset/opencost/Cloud%20Costs.png)
 External Costs
-![OpenCost Dashboard](./asset/opencost/External Costs.png)
+![OpenCost Dashboard](./asset/opencost/External%20Costs.png)
 
 
 
@@ -1617,20 +1617,20 @@ Kubecost架构组件:
 
 **版本对比**
 
-| 功能 | 开源版 | 企业版 |
-|-----|-------|-------|
-| 基础成本监控 | ✅ | ✅ |
-| 多集群支持 | ❌ | ✅ |
-| 高级告警 | ❌ | ✅ |
-| SSO 集成 | ❌ | ✅ |
-| 自定义分摊规则 | 有限 | 完整 |
-| 优先技术支持 | ❌ | ✅ |
-| 高级预算管理 | ❌ | ✅ |
-| 异常检测 | ❌ | ✅ |
-| 集合管理 | ❌ | ✅ |
-| 审计日志 | ❌ | ✅ |
-| 网络成本分配 | ❌ | ✅ |
-| 外部成本跟踪 | ❌ | ✅ |
+| 功能      | 开源版 | 企业版 |
+|---------|-----|-----|
+| 基础成本监控  | ✅   | ✅   |
+| 多集群支持   | ❌   | ✅   |
+| 高级告警    | ❌   | ✅   |
+| SSO 集成  | ❌   | ✅   |
+| 自定义分摊规则 | 有限  | 完整  |
+| 优先技术支持  | ❌   | ✅   |
+| 高级预算管理  | ❌   | ✅   |
+| 异常检测    | ❌   | ✅   |
+| 集合管理    | ❌   | ✅   |
+| 审计日志    | ❌   | ✅   |
+| 网络成本分配  | ❌   | ✅   |
+| 外部成本跟踪  | ❌   | ✅   |
 
 **Kubecost 平台功能截图**
 以下为Kubecost平台的主要功能界面截图:
@@ -1639,46 +1639,46 @@ Overview
 ![Kubecost Overview](./asset/kubecost/01-Overview.png)
 
 Allocations Dashboard
-![Allocations Dashboard](./asset/kubecost/02-Allocations Dashboard.png)
+![Allocations Dashboard](./asset/kubecost/02-Allocations%20Dashboard.png)
 
 Efficiency and Idle Resources
-![Efficiency and Idle](./asset/kubecost/02-Efficiency and Idle.png)
+![Efficiency and Idle](./asset/kubecost/02-Efficiency%20and%20Idle.png)
 
 Network Traffic Cost Allocation
-![Network Traffic Cost](./asset/kubecost/03-Network Traffic Cost Allocation.png)
+![Network Traffic Cost](./asset/kubecost/03-Network%20Traffic%20Cost%20Allocation.png)
 
 Assets Dashboard
-![Assets Dashboard](./asset/kubecost/04-Assets Dashboard.png)
+![Assets Dashboard](./asset/kubecost/04-Assets%20Dashboard.png)
 
 Cloud Cost Explorer
-![Cloud Cost Explorer](./asset/kubecost/05-Cloud Cost Explorer.png)
+![Cloud Cost Explorer](./asset/kubecost/05-Cloud%20Cost%20Explorer.png)
 
 Clusters Dashboard
-![Clusters Dashboard](./asset/kubecost/06-Clusters Dashboard.png)
+![Clusters Dashboard](./asset/kubecost/06-Clusters%20Dashboard.png)
 
 Cluster Details
-![Cluster Details](./asset/kubecost/06-Cluster Details.png)
+![Cluster Details](./asset/kubecost/06-Cluster%20Details.png)
 
 Efficiency Dashboard
-![Efficiency Dashboard](./asset/kubecost/07-Efficiency Dashboard.png)
+![Efficiency Dashboard](./asset/kubecost/07-Efficiency%20Dashboard.png)
 
 Efficiency Report
-![Efficiency Report](./asset/kubecost/07-Efficiency Report.png)
+![Efficiency Report](./asset/kubecost/07-Efficiency%20Report.png)
 
 Idle by Type
-![Idle by Type](./asset/kubecost/07-Idle by Type.png)
+![Idle by Type](./asset/kubecost/07-Idle%20by%20Type.png)
 
 External Costs
-![External Costs](./asset/kubecost/08-External Costs.png)
+![External Costs](./asset/kubecost/08-External%20Costs.png)
 
 Network Monitoring
-![Network Monitoring](./asset/kubecost/09-Network Monitoring.png)
+![Network Monitoring](./asset/kubecost/09-Network%20Monitoring.png)
 
 Collections
 ![Collections](./asset/kubecost/10-Collections.png)
 
 Collections Owner View
-![Collections Owner View](./asset/kubecost/10-Collections Owner.png)
+![Collections Owner View](./asset/kubecost/10-Collections%20Owner.png)
 
 Reports
 ![Reports](./asset/kubecost/11-Reports.png)
@@ -1702,18 +1702,18 @@ Teams
 ![Teams](./asset/kubecost/17-Teams.png)
 
 Service Accounts
-![Service Accounts](./asset/kubecost/18-Service Accounts.png)
+![Service Accounts](./asset/kubecost/18-Service%20Accounts.png)
 
 **架构图**
 
 Kubecost Core Architecture
-![Kubecost Core Architecture](./asset/kubecost/Kubecost Core Architecture01.png)
+![Kubecost Core Architecture](./asset/kubecost/Kubecost%20Core%20Architecture01.png)
 
 Kubecost Core Architecture Detail
-![Kubecost Core Architecture Detail](./asset/kubecost/Kubecost Core Architecture02.png)
+![Kubecost Core Architecture Detail](./asset/kubecost/Kubecost%20Core%20Architecture02.png)
 
 Kubecost Enterprise Architecture Overview
-![Enterprise Architecture](./asset/kubecost/Kubecost Enterprise Architecture Overview.png)
+![Enterprise Architecture](./asset/kubecost/Kubecost%20Enterprise%20Architecture%20Overview.png)
 
 **文档资源**
 - [如何构建DevOps工作流程中的成本意识](./asset/kubecost/how-build-cost-awareness-into-devops-workflows.pdf)
@@ -1828,25 +1828,25 @@ Overview Dashboard
 ![Overview Dashboard](./asset/infracost/01-dashboard.png)
 
 Issue Explorer
-![Issue Explorer](./asset/infracost/02-Issue Explorer.png)
+![Issue Explorer](./asset/infracost/02-Issue%20Explorer.png)
 
 Campaigns
 ![Campaigns](./asset/infracost/03-Campaigns.png)
 
 FinOps Policies
-![FinOps Policies](./asset/infracost/04-FinOps policies.png)
+![FinOps Policies](./asset/infracost/04-FinOps%20policies.png)
 
 Tagging
 ![Tagging](./asset/infracost/05-tagging.png)
 
 Cost Guardrails
-![Cost Guardrails](./asset/infracost/06-Cost guardrails.png)
+![Cost Guardrails](./asset/infracost/06-Cost%20guardrails.png)
 
 Reports
 ![Reports](./asset/infracost/07-Reports.png)
 
 Custom Price Books
-![Custom Price Books](./asset/infracost/08-Custom price books.png)
+![Custom Price Books](./asset/infracost/08-Custom%20price%20books.png)
 
 Plans & Pricing
 ![Plans & Pricing](./asset/infracost/plans&pricing.png)
@@ -2047,7 +2047,7 @@ Performance Metrics
 ![Performance Metrics](./asset/CloudQuery/07.png)
 
 Getting Started Guide
-![Getting Started](./asset/CloudQuery/10-Geting Started.png)
+![Getting Started](./asset/CloudQuery/10-Geting%20Started.png)
 
 Home Dashboard
 ![Home Dashboard](./asset/CloudQuery/10-home.png)
@@ -2056,7 +2056,7 @@ Billing & Usage
 ![Billing & Usage](./asset/CloudQuery/11-billing&usage.png)
 
 Team Settings
-![Team Settings](./asset/CloudQuery/12-Team Settings.png)
+![Team Settings](./asset/CloudQuery/12-Team%20Settings.png)
 
 **主要特性**
 - 专业化插件覆盖: 支持复杂的云基础设施和安全数据
@@ -2222,13 +2222,13 @@ Workflows Management
 ![工作流管理](./asset/OpenOps/03-workflows.png)
 
 Workflow Runs
-![工作流运行](./asset/OpenOps/04-workflows runs.png)
+![工作流运行](./asset/OpenOps/04-workflows%20runs.png)
 
 Connections Management
 ![连接管理](./asset/OpenOps/05-Connnections.png)
 
 New Connection Setup
-![新建连接](./asset/OpenOps/06-connection new.png)
+![新建连接](./asset/OpenOps/06-connection%20new.png)
 
 Tables Interface
 ![表格界面](./asset/OpenOps/07-tables.png)
@@ -2336,25 +2336,25 @@ Pricing Information
 
 ### 决策因素权重表
 
-| 评估维度 | 权重 | 评分标准 |
-|---------|------|---------|
-| 成本效益 | 25% | ROI 计算、TCO 分析 |
-| 功能匹配度 | 20% | 核心需求覆盖程度 |
-| 技术复杂度 | 15% | 部署维护难度 |
-| 扩展性 | 15% | 未来发展适应性 |
-| 生态集成 | 15% | 与其他系统兼容性 |
-| 支持服务 | 10% | 文档、社区、商业支持 |
+| 评估维度  | 权重  | 评分标准          |
+|-------|-----|---------------|
+| 成本效益  | 25% | ROI 计算、TCO 分析 |
+| 功能匹配度 | 20% | 核心需求覆盖程度      |
+| 技术复杂度 | 15% | 部署维护难度        |
+| 扩展性   | 15% | 未来发展适应性       |
+| 生态集成  | 15% | 与其他系统兼容性      |
+| 支持服务  | 10% | 文档、社区、商业支持    |
 
 ### 工具评分卡 (满分5分)
 
-| 工具名称 | 成本效益 | 功能匹配 | 技术复杂度 | 扩展性 | 生态集成 | 支持服务 | 综合得分 |
-|---------|---------|---------|-----------|--------|---------|---------|---------|
-| AWS Cost Explorer | 5 | 3 | 5 | 2 | 5 | 4 | 3.8 |
-| CloudHealth | 3 | 5 | 3 | 5 | 4 | 5 | 4.2 |
-| ProsperOps | 5 | 4 | 4 | 4 | 4 | 4 | 4.2 |
-| OpenCost | 5 | 4 | 2 | 4 | 3 | 2 | 3.3 |
-| Kubecost | 4 | 5 | 3 | 4 | 4 | 4 | 4.0 |
-| 自建方案 | 5 | 5 | 1 | 5 | 3 | 1 | 3.3 |
+| 工具名称              | 成本效益 | 功能匹配 | 技术复杂度 | 扩展性 | 生态集成 | 支持服务 | 综合得分 |
+|-------------------|------|------|-------|-----|------|------|------|
+| AWS Cost Explorer | 5    | 3    | 5     | 2   | 5    | 4    | 3.8  |
+| CloudHealth       | 3    | 5    | 3     | 5   | 4    | 5    | 4.2  |
+| ProsperOps        | 5    | 4    | 4     | 4   | 4    | 4    | 4.2  |
+| OpenCost          | 5    | 4    | 2     | 4   | 3    | 2    | 3.3  |
+| Kubecost          | 4    | 5    | 3     | 4   | 4    | 4    | 4.0  |
+| 自建方案              | 5    | 5    | 1     | 5   | 3    | 1    | 3.3  |
 
 ## 实施建议
 
@@ -2416,33 +2416,33 @@ Pricing Information
 
 ## 云平台支持汇总表
 
-| 工具名称 | AWS | Azure | GCP | 阿里云 | 腾讯云 | 华为云 | 中国区支持情况 | 是否完全开源 |
-|---------|-----|-------|-----|--------|--------|--------|----------------|-------------|
-| AWS Cost Management Suite | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | 完全支持 (北京、宁夏区域) | ❌ 闭源 |
-| Azure Cost Management | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | 完全支持 (世纪互联运营) | ❌ 闭源 |
-| Google Cloud Billing | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | 服务受限 | ❌ 闭源 |
-| CloudHealth by VMware | ✅ | ✅ | ▲ | ✅ | ▲ | ▲ | 多平台支持良好 | ❌ 闭源 |
-| Apptio Cloudability | ✅ | ✅ | ▲ | ▲ | ▲ | ▲ | 多平台支持良好 | ❌ 闭源 |
-| ProsperOps | ✅ | ✅ | ▲ | ▲ | ▲ | ▲ | 多平台支持良好 | ❌ 闭源 |
-| Spot.io | ✅ | ✅ | ▲ | ▲ | ▲ | ▲ | 多平台支持良好 | ⚠️ 部分开源 |
-| CloudMonitor | ▲ | ✅ | ▲ | ▲ | ▲ | ▲ | 主要支持Azure | ❌ 闭源 |
-| Flexera | ✅ | ✅ | ▲ | ▲ | ▲ | ▲ | 多平台支持良好 | ❌ 闭源 |
-| Umbrella | ✅ | ✅ | ▲ | ▲ | ▲ | ▲ | 多平台支持良好 | ❌ 闭源 |
-| Ternary | ✅ | ✅ | ▲ | ▲ | ▲ | ▲ | 多平台支持良好 | ❌ 闭源 |
-| CloudFix | ✅ | ✅ | ▲ | ▲ | ▲ | ▲ | 多平台支持良好 | ❌ 闭源 |
-| Archera | ✅ | ✅ | ▲ | ▲ | ▲ | ▲ | 多平台支持良好 | ❌ 闭源 |
-| CloudZero | ✅ | ✅ | ▲ | ▲ | ▲ | ▲ | 多平台支持良好 | ❌ 闭源 |
-| FinOut | ✅ | ✅ | ▲ | ▲ | ▲ | ▲ | 多平台支持良好 | ❌ 闭源 |
-| Vega | ✅ | ✅ | ▲ | ▲ | ▲ | ▲ | 多平台支持良好 | ❌ 闭源 |
-| Vantage | ✅ | ✅ | ▲ | ▲ | ▲ | ▲ | 多平台支持良好 | ⚠️ 部分开源 |
-| Hyperglance | ✅ | ✅ | ▲ | ▲ | ▲ | ▲ | 多平台支持良好 | ❌ 闭源 |
-| OptScale by Hystax | ✅ | ✅ | ▲ | ✅ | ✅ | ✅ | 多平台支持良好 | ✅ 完全开源 |
-| OpenCost | ✅ | ✅ | ▲ | ✅ | ✅ | ✅ | 多平台支持良好 | ✅ 完全开源 (CNCF) |
-| Kubecost | ✅ | ✅ | ▲ | ✅ | ✅ | ✅ | 多平台支持良好 | ⚠️ 核心开源 |
-| Infracost | ✅ | ✅ | ▲ | ✅ | ▲ | ▲ | 多平台支持良好 | ⚠️ CLI开源 |
-| CloudQuery | ✅ | ✅ | ▲ | ✅ | ✅ | ✅ | 多平台支持良好 | ⚠️ 仅CLI开源 |
-| OpenOps | ✅ | ✅ | ▲ | ✅ | ✅ | ✅ | 多平台支持良好 | ✅ 完全开源 |
-| Prometheus + Grafana | ✅ | ✅ | ▲ | ✅ | ✅ | ✅ | 多平台支持良好 | ✅ 完全开源 |
+| 工具名称                      | AWS | Azure | GCP | 阿里云 | 腾讯云 | 华为云 | 中国区支持情况        | 是否完全开源        |
+|---------------------------|-----|-------|-----|-----|-----|-----|----------------|---------------|
+| AWS Cost Management Suite | ✅   | ❌     | ❌   | ❌   | ❌   | ❌   | 完全支持 (北京、宁夏区域) | ❌ 闭源          |
+| Azure Cost Management     | ❌   | ✅     | ❌   | ❌   | ❌   | ❌   | 完全支持 (世纪互联运营)  | ❌ 闭源          |
+| Google Cloud Billing      | ❌   | ❌     | ✅   | ❌   | ❌   | ❌   | 服务受限           | ❌ 闭源          |
+| CloudHealth by VMware     | ✅   | ✅     | ▲   | ✅   | ▲   | ▲   | 多平台支持良好        | ❌ 闭源          |
+| Apptio Cloudability       | ✅   | ✅     | ▲   | ▲   | ▲   | ▲   | 多平台支持良好        | ❌ 闭源          |
+| ProsperOps                | ✅   | ✅     | ▲   | ▲   | ▲   | ▲   | 多平台支持良好        | ❌ 闭源          |
+| Spot.io                   | ✅   | ✅     | ▲   | ▲   | ▲   | ▲   | 多平台支持良好        | ⚠️ 部分开源       |
+| CloudMonitor              | ▲   | ✅     | ▲   | ▲   | ▲   | ▲   | 主要支持Azure      | ❌ 闭源          |
+| Flexera                   | ✅   | ✅     | ▲   | ▲   | ▲   | ▲   | 多平台支持良好        | ❌ 闭源          |
+| Umbrella                  | ✅   | ✅     | ▲   | ▲   | ▲   | ▲   | 多平台支持良好        | ❌ 闭源          |
+| Ternary                   | ✅   | ✅     | ▲   | ▲   | ▲   | ▲   | 多平台支持良好        | ❌ 闭源          |
+| CloudFix                  | ✅   | ✅     | ▲   | ▲   | ▲   | ▲   | 多平台支持良好        | ❌ 闭源          |
+| Archera                   | ✅   | ✅     | ▲   | ▲   | ▲   | ▲   | 多平台支持良好        | ❌ 闭源          |
+| CloudZero                 | ✅   | ✅     | ▲   | ▲   | ▲   | ▲   | 多平台支持良好        | ❌ 闭源          |
+| FinOut                    | ✅   | ✅     | ▲   | ▲   | ▲   | ▲   | 多平台支持良好        | ❌ 闭源          |
+| Vega                      | ✅   | ✅     | ▲   | ▲   | ▲   | ▲   | 多平台支持良好        | ❌ 闭源          |
+| Vantage                   | ✅   | ✅     | ▲   | ▲   | ▲   | ▲   | 多平台支持良好        | ⚠️ 部分开源       |
+| Hyperglance               | ✅   | ✅     | ▲   | ▲   | ▲   | ▲   | 多平台支持良好        | ❌ 闭源          |
+| OptScale by Hystax        | ✅   | ✅     | ▲   | ✅   | ✅   | ✅   | 多平台支持良好        | ✅ 完全开源        |
+| OpenCost                  | ✅   | ✅     | ▲   | ✅   | ✅   | ✅   | 多平台支持良好        | ✅ 完全开源 (CNCF) |
+| Kubecost                  | ✅   | ✅     | ▲   | ✅   | ✅   | ✅   | 多平台支持良好        | ⚠️ 核心开源       |
+| Infracost                 | ✅   | ✅     | ▲   | ✅   | ▲   | ▲   | 多平台支持良好        | ⚠️ CLI开源      |
+| CloudQuery                | ✅   | ✅     | ▲   | ✅   | ✅   | ✅   | 多平台支持良好        | ⚠️ 仅CLI开源     |
+| OpenOps                   | ✅   | ✅     | ▲   | ✅   | ✅   | ✅   | 多平台支持良好        | ✅ 完全开源        |
+| Prometheus + Grafana      | ✅   | ✅     | ▲   | ✅   | ✅   | ✅   | 多平台支持良好        | ✅ 完全开源        |
 
 **符号说明**:
 - ✅: 完全支持
