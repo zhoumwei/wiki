@@ -2094,6 +2094,7 @@ Team Settings
 #### OpenOps
 **官方网站**: [OpenOps](https://openops.com/)
 **开源代码库**: [GitHub - openops-cloud/openops](https://github.com/openops-cloud/openops)
+**Docs**: https://docs.openops.com/getting-started/quick-start-guide
 
 **基本信息**
 - 付费模式: 开源免费 + 托管服务
@@ -2117,79 +2118,154 @@ Team Settings
 - 深度集成能力
 - 人工控制机制
 - 集中化管理
+- AI助手功能
 
-**核心功能**
+**核心功能详解**
 ```
 ├── 预构建 FinOps 工作流
-│   ├── 功能: 包含最佳实践的工作流库
-│   ├── 覆盖: 成本优化、标记、预算、分配和报告
-│   └── 特点: 由 FinOps 领导者设计
+│   ├── 功能: 基于FinOps领导者设计的最佳实践工作流库
+│   ├── 覆盖: 成本优化、标签管理、预算管理、成本分配和报告
+│   ├── 特点: 数十个工作流模板覆盖AWS、Azure、GCP等主流云服务
+│   └── 价值: 快速启动FinOps自动化流程
 ├── 无代码体验
-│   ├── 功能: 面向非技术人员的易用性
-│   ├── 特点: 需要时可进入代码模式
-│   └── 优势: 降低使用门槛
-├── 灵活工作流编辑器
-│   ├── 功能: 专用的无代码编辑器
-│   ├── 用途: 从零构建或自定义现有工作流
-│   └── 价值: 高度可定制化
-├── 深度集成能力
-│   ├── 功能: 与主流云提供商原生连接
-│   ├── 集成: 数据库、分析工具、通信平台
-│   └── 支持: 项目管理系统
-├── 人工控制机制
-│   ├── 功能: 关键审批流程的人工控制
-│   ├── 渠道: 多渠道HITL控制
-│   └── 价值: 确保关键决策的准确性
+│   ├── 功能: 面向非技术背景用户的易用性设计
+│   ├── 特点: 需要时可进入代码模式进行高级定制
+│   ├── 优势: 降低FinOps自动化使用门槛
+│   └── 适用: FinOps从业者、工程师、架构师、分析师和管理者
 ├── 工作流版本管理
-│   ├── 功能: 测试工作流步骤和版本维护
-│   ├── 追踪: 详细日志记录每个动作
-│   └── 优势: 完全可追溯性
-└── 集中化管理
-    ├── 功能: 日志和处理优化机会
-    ├── 表格: 支持批准、驳回、标记误报和延后
-    └── 价值: 统一操作中心
+│   ├── 功能: 测试运行、版本控制和详细追踪
+│   ├── 特点: 每个工作流运行的可追溯性
+│   ├── 优势: 确保工作流定义和运行的可靠性
+│   └── 价值: 支持安全的工作流迭代和优化
+├── 深度集成能力
+│   ├── 功能: 与主流云提供商、FinOps平台和第三方工具原生连接
+│   ├── 支持: Amazon RDS, Azure SQL, Google Cloud SQL, S3, BigQuery, Databricks等
+│   ├── FinOps工具: Archera, AWS Compute Optimizer, Azure Advisor, CloudHealth, Cloudability, CloudZero等
+│   ├── 通信工具: Slack, Microsoft Teams, Outlook, SMTP
+│   ├── 项目管理: Jira Cloud, Monday.com, Linear, ServiceNow, Zendesk
+│   └── IaC工具: GitHub, Terraform, AWS CloudFormation, Azure Resource Manager
+├── 人工控制机制
+│   ├── 功能: 在关键优化操作前加入人工审批流程
+│   ├── 特点: 通过通知和快捷操作按钮获得利益相关者批准
+│   ├── 价值: 确保删除或缩减规模操作的准确性
+│   └── 优势: 防止对关键资源的误操作
+├── 集中化管理
+│   ├── 功能: 通过表格记录机会和异常
+│   ├── 操作: 支持批准、驳回、标记误报和延后处理
+│   ├── 用途: 处理计费数据、映射资源到负责人、生成支出报告
+│   └── 价值: 统一操作中心便于管理
+└── AI助手功能
+    ├── 功能: 基于用户选择的LLM提供智能辅助
+    ├── 支持: OpenAI, Anthropic, Google Generative AI, Groq, Mistral, Perplexity等
+    ├── 用途: 生成CLI命令、SQL查询、JavaScript代码片段
+    ├── 优势: 在工作流编辑器中无需切换上下文
+    └── 特色: 通过AI Step动作和Generate with AI命令提供辅助
 ```
 
 **技术架构**
 ```
-核心组件:
-├── OpenOps Tables (类似Excel的数据库)
-├── OpenOps Analytics (可视化系统)
-└── 无代码工作流引擎
+核心架构组件:
+├── 工作流引擎
+│   ├── 无代码工作流编辑器: 可视化构建和管理工作流
+│   ├── 模板库: 预构建FinOps最佳实践工作流
+│   ├── 版本控制: 工作流定义和执行的版本管理
+│   └── 测试运行: 每个步骤的安全测试能力
+├── AI助手系统
+│   ├── LLM连接: 支持多种主流AI模型
+│   ├── AI Step动作: 在工作流中运行AI提示
+│   ├── 智能生成: 生成CLI命令、SQL查询和代码
+│   └── 本地部署: 支持Bring Your Own Keys模式
+├── 数据管理层
+│   ├── OpenOps Tables: 类似Excel的数据库系统
+│   ├── 数据同步: 与云提供商API的实时同步
+│   ├── 表格管理: 用于记录优化机会和异常
+│   └── 数据分析: 基于表格数据的分析功能
+├── 集成层
+│   ├── 云提供商连接器: AWS, Azure, GCP等
+│   ├── FinOps工具集成: CloudHealth, Cloudability等
+│   ├── 通信平台: Slack, Teams等
+│   ├── 项目管理工具: Jira, Monday.com等
+│   └── 数据库和分析工具: Snowflake, BigQuery, Databricks等
+└── 可视化分析
+    ├── OpenOps Analytics: 内置图表和仪表板
+    ├── 数据源: OpenOps表格或外部数据源
+    ├── 支持: CSV文件、Google Sheets、PostgreSQL等
+    └── 功能: 基于数据的图表和仪表板构建
 
-支持平台:
-├── 云提供商: AWS, Azure, GCP
-├── 数据库: 多种数据库系统
-├── 通信平台: Slack 等协作工具
-└── 项目管理: Jira, Trello 等工具
-
-部署选项:
-├── 托管云服务: 自动更新和维护
-├── Docker Compose: 本地或云端安装
-└── 企业私有化: 安全合规部署
+部署架构:
+├── 本地部署 (Docker Compose)
+│   ├── 硬件要求: 探索阶段2核CPU、8GB内存、50GB存储
+│   ├── 生产环境: 4核CPU、16GB内存、100GB存储
+│   ├── 支持OS: Linux, macOS, Windows
+│   └── 容器化: 基于Docker Compose规范
+├── 托管云服务
+│   ├── 优势: 自动更新和维护
+│   ├── 便利性: 即开即用
+│   └── 适用: 希望减少运维负担的组织
+└── 企业私有化部署
+    ├── 安全性: 完全控制数据和访问
+    ├── 合规性: 满足企业安全要求
+    └── 定制化: 根据企业需求定制
 ```
 
+**OpenOps 平台功能截图**
+
+以下为OpenOps平台的主要功能界面截图:
+
+Login Interface
+![登录界面](./asset/OpenOps/01-login.png)
+
+Overview Dashboard
+![概览仪表板](./asset/OpenOps/02-overview.png)
+
+Workflows Management
+![工作流管理](./asset/OpenOps/03-workflows.png)
+
+Workflow Runs
+![工作流运行](./asset/OpenOps/04-workflows runs.png)
+
+Connections Management
+![连接管理](./asset/OpenOps/05-Connnections.png)
+
+New Connection Setup
+![新建连接](./asset/OpenOps/06-connection new.png)
+
+Tables Interface
+![表格界面](./asset/OpenOps/07-tables.png)
+
+Pricing Information
+![价格信息](./asset/OpenOps/pricing.png)
+
 **主要模块**
-- 工作流模板管理: 预构建和自定义工作流
-- OpenOps Tables: 类似Excel的数据库
-- OpenOps Analytics: 内置可视化分析
-- 人工控制: 关键流程审批机制
-- 版本控制: 工作流版本管理和追踪
+- 工作流模板管理: 预构建和自定义工作流，涵盖AWS、Azure、GCP等云服务优化
+- OpenOps Tables: 类似Excel的数据库，用于记录和处理优化机会
+- OpenOps Analytics: 内置可视化分析系统，构建图表和仪表板
+- AI助手: 基于用户选择的LLM提供智能辅助功能
+- 人工控制: 关键流程审批机制，确保操作准确性
+- 版本控制: 工作流版本管理和执行追踪
+- 集中化管理: 统一处理优化机会和异常
 
 **优劣势分析**
 ✅ 优势:
-- 无代码操作，易于非技术人员使用
-- 与主流云平台深度集成
-- 提供预构建的最佳实践工作流
-- 支持人工控制确保准确性
-- 开源且提供多种部署选项
-- 促进跨团队协作
+- 无代码操作，易于非技术人员使用，同时支持高级定制
+- 与主流云平台和FinOps工具深度集成
+- 提供数十个预构建的最佳实践工作流，覆盖主流云服务
+- 支持人工控制确保关键操作的准确性
+- 开源且提供多种部署选项（本地、云托管、企业私有化）
+- 促进跨团队协作（FinOps、工程、DevOps、财务、领导层）
+- AI助手功能，支持多种主流LLM，提高工作效率
+- 工作流版本控制和测试运行，确保可靠性
+- 集中化管理优化机会和异常
+- 支持多云环境的统一管理
+- 免费开源版本降低使用门槛
 
 ❌ 局限性:
 - 作为相对较新的平台，社区可能较小
 - 高级功能可能需要学习曲线
 - 某些特定需求可能需要定制开发
 - 依赖外部集成的稳定性
+- AI功能需要用户提供自己的LLM密钥
+- 部分高级功能可能需要云服务支持
 
 ### 4. 自建解决方案工具链
 
