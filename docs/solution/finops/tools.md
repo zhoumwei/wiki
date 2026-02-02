@@ -139,27 +139,27 @@
 以下为CloudHealth平台的主要功能界面截图：
 
 Resource and Organization Management
-![资源与组织管理](./asset/CloudHealth/Resource%20and%20Organization%20Management.png)
+![资源与组织管理](./asset/CloudHealth/Resource and Organization%20Management.png)
 Custom Dashboards
-![自定义仪表板](./asset/CloudHealth/Custom%20Dashboards.png)
+![自定义仪表板](./asset/CloudHealth/Custom Dashboards.png)
 Budget Management
-![预算管理](./asset/CloudHealth/Budget%20Management.png)
+![预算管理](./asset/CloudHealth/Budget Management.png)
 Forecasting
 ![成本预测](asset/CloudHealth/04-Forecasting.png)
 Cost Allocation and Chargeback
-![成本分摊与反收费](./asset/CloudHealth/Cost%20Allocation%20and%20Chargeback.png)
+![成本分摊与反收费](./asset/CloudHealth/CostAllocation and Chargeback.png)
 Rightsizing and Waste Reduction
-![权利化和浪费减少](./asset/CloudHealth/Rightsizing%20and%20Waste%20Reduction.png)
+![权利化和浪费减少](./asset/CloudHealth/Rightsizing and Waste Reduction.png)
 Optimization
 ![优化](asset/CloudHealth/09-Optimization.png)
 Intelligent Assist
-![智能辅助](./asset/CloudHealth/Intelligent%20Assist.png)
+![智能辅助](./asset/CloudHealth/Intelligent Assist.png)
 Asset Explorer
-![资产探索](./asset/CloudHealth/Asset%20Explorer.png)
+![资产探索](./asset/CloudHealth/Asset Explorer.png)
 Governance and Automation
-![治理和自动化](./asset/CloudHealth/Governance%20and%20Automation.png)
+![治理和自动化](./asset/CloudHealth/Governance and Automation.png)
 Smart Summary
-![智能辅助](./asset/CloudHealth/Smart%20Summary.png)
+![智能辅助](./asset/CloudHealth/Smart Summary.png)
 GreenOps
 ![绿色运营](asset/CloudHealth/10-GreenOps.png)
 
@@ -1477,11 +1477,11 @@ Events
 
 以下为OpenCost平台的主要功能界面截图:
 Cost Allocation
-![OpenCost Dashboard](./asset/opencost/Cost%20Allocation.png)
+![OpenCost Dashboard](./asset/opencost/Cost Allocation.png)
 Cloud Costs
-![OpenCost Dashboard](./asset/opencost/Cloud%20Costs.png)
+![OpenCost Dashboard](./asset/opencost/Cloud Costs.png)
 External Costs
-![OpenCost Dashboard](./asset/opencost/External%20Costs.png)
+![OpenCost Dashboard](./asset/opencost/External Costs.png)
 
 
 
