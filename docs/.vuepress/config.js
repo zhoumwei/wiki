@@ -26,11 +26,25 @@ export default defineUserConfig({
       {
         text: '产品管理',
         children: [
-          { text: '产品生命周期', link: '/product-management/product-lifecycle' },
-          { text: '需求优先级排序', link: '/product-management/priority-ranking' },
-          { text: 'RICE模型', link: '/product-management/rice-model' },
-          { text: 'MoSCoW法', link: '/product-management/moscow-method' },
-          { text: 'PRD文档撰写', link: '/product-management/prd-writing' }
+          { text: '产品知识体系指南', link: '/product-management/' },
+          { text: '1.1 产品思维', link: '/product-management/foundation/product-thinking' },
+          { text: '1.2 产品经理分类', link: '/product-management/foundation/pm-classification' },
+          { text: '2.1 产品生命周期', link: '/product-management/strategy/product-lifecycle' },
+          { text: '2.2 需求优先级排序', link: '/product-management/strategy/priority-ranking' },
+          { text: '2.2.1 RICE模型', link: '/product-management/strategy/rice-model' },
+          { text: '2.2.2 MoSCoW法', link: '/product-management/strategy/moscow-method' },
+          { text: '2.3 商业模式', link: '/product-management/strategy/business-model' },
+          { text: '3.1 PRD文档撰写', link: '/product-management/design/prd-writing' },
+          { text: '3.2 用户研究方法', link: '/product-management/design/user-research' },
+          { text: '4.1 产品项目管理', link: '/product-management/development/project-management' },
+          { text: '5.1 产品数据分析', link: '/product-management/analysis/data-analysis' },
+          { text: '6.1 产品经理日常文档', link: '/product-management/collaboration/daily-documentation' },
+          { text: '6.2 产品团队协作', link: '/product-management/collaboration/team-collaboration' },
+          { text: '7.1 产品文档模板指南', link: '/product-management/templates/template-guide' },
+          { text: '7.1.1 PRD模板', link: '/product-management/templates/prd-template' },
+          { text: '7.1.2 BRD模板', link: '/product-management/templates/brd-template' },
+          { text: '7.1.3 MRD模板', link: '/product-management/templates/mrd-template' },
+          { text: '7.1.4 产品分析报告模板', link: '/product-management/templates/analysis-report-template' }
         ]
       },
       {
@@ -247,14 +261,27 @@ export default defineUserConfig({
       ],
       '/product-management/': [
         {
-          text: '产品经理技能指南',
+          text: '产品经理知识体系指南',
           link: '/product-management/',
           children: [
-            '/product-management/product-lifecycle.md',
-            '/product-management/priority-ranking.md',
-            '/product-management/rice-model.md',
-            '/product-management/moscow-method.md',
-            '/product-management/prd-writing.md'
+            '/product-management/foundation/product-thinking.md',
+            '/product-management/foundation/pm-classification.md',
+            '/product-management/strategy/product-lifecycle.md',
+            '/product-management/strategy/priority-ranking.md',
+            // '/product-management/strategy/rice-model.md',
+            // '/product-management/strategy/moscow-method.md',
+            '/product-management/strategy/business-model.md',
+            '/product-management/design/prd-writing.md',
+            '/product-management/design/user-research.md',
+            '/product-management/development/project-management.md',
+            '/product-management/analysis/data-analysis.md',
+            '/product-management/collaboration/daily-documentation.md',
+            '/product-management/collaboration/team-collaboration.md',
+            '/product-management/templates/template-guide.md',
+            '/product-management/templates/prd-template.md',
+            '/product-management/templates/brd-template.md',
+            '/product-management/templates/mrd-template.md',
+            '/product-management/templates/analysis-report-template.md'
           ]
         }
       ]
