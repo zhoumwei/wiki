@@ -24,6 +24,16 @@ export default defineUserConfig({
         link: '/get-started'
       },
       {
+        text: '产品管理',
+        children: [
+          { text: '产品生命周期', link: '/product-management/product-lifecycle' },
+          { text: '需求优先级排序', link: '/product-management/priority-ranking' },
+          { text: 'RICE模型', link: '/product-management/rice-model' },
+          { text: 'MoSCoW法', link: '/product-management/moscow-method' },
+          { text: 'PRD文档撰写', link: '/product-management/prd-writing' }
+        ]
+      },
+      {
         text: 'Java',
         children: [
           { text: 'Java基础', link: '/interview/java/basic/' },
@@ -232,6 +242,19 @@ export default defineUserConfig({
             '/solution/finops/tools.md',
             '/solution/finops/case-studies.md',
             '/solution/finops/risk-trends.md'
+          ]
+        }
+      ],
+      '/product-management/': [
+        {
+          text: '产品经理技能指南',
+          link: '/product-management/',
+          children: [
+            '/product-management/product-lifecycle.md',
+            '/product-management/priority-ranking.md',
+            '/product-management/rice-model.md',
+            '/product-management/moscow-method.md',
+            '/product-management/prd-writing.md'
           ]
         }
       ]
